@@ -3,16 +3,18 @@
 html{
     background-color: hsl(212, 45%, 89%);
     box-sizing: border-box; /*border box inside parent container */
+    height: 100%;
 }
 /*aligns items in center, content specs; flex */
 body{ 
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 100%;
     font-family: 'Outfit', sans-serif;
     text-align: center;
     color: hsl(218, 44%, 22%);
+    margin: 0;
 }
 /*card specs -> background */
 #card{
@@ -32,7 +34,7 @@ body{
     border-radius: 10px;
 }
 
-h2{
+h1{
     padding: 0 15px 0 15px ;
 }
 
