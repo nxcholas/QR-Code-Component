@@ -17,7 +17,7 @@ body{
     margin: 0;
 }
 /*card specs -> background */
-#card{
+.card{
     background-color: white;
     border-radius: 19px;
     width: 320px;
@@ -26,7 +26,7 @@ body{
     margin: 20px;
 }
 
-#card > img{
+.card > img{
     max-width: 100%;
 }
 
